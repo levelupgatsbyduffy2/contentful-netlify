@@ -1,5 +1,5 @@
 ---
-title: "Level up Pro Gatsby"
+title: "Level Up Pro Gatsby"
 date: "2018-03-16"
 ---
 
