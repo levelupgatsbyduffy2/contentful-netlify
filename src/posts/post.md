@@ -11,9 +11,7 @@ I bet you’re still using Bootstrap too…
 
 
 
-![Screenshot](/static/assets/screen shot 2018-03-13 at 1.46.05 pm.jpg)
-
-
+![Screenshot](/assets/screen_shot.jpg)
 
 * This
 * Is

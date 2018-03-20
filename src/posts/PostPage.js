@@ -2,6 +2,7 @@ import React from 'react'
 
 const PostPage = props => {
   const { data } = props
+  if (!data) return null
   return (
     <div>
       <span>{data.markdownRemark.frontmatter.date}</span>
