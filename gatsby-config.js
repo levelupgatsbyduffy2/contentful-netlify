@@ -4,6 +4,14 @@ module.exports = {
     description: 'My first Gatsby site!',
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: 'komzmzdpg14i',
+        accessToken:
+          '86fcc6be11f501130a705209f3d85865710cff4d9fc2515aa570c0d7e6adc528',
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
@@ -27,16 +35,10 @@ module.exports = {
         path: `${__dirname}/static/assets`,
       },
     },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        excerpt_separator: `<!-- end -->`,
-      },
-    },
 
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-netlify-cms',
+    'gatsby-transformer-remark',
   ],
 }
 
