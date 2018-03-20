@@ -11,7 +11,9 @@ I bet you’re still using Bootstrap too…
 
 
 
-![Screenshot](/assets/screen_shot.jpg)
+![The Bear & The Maiden Fair](/assets/bear_and_maiden.png)
+
+
 
 * This
 * Is
