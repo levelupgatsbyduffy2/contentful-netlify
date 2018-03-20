@@ -6,7 +6,7 @@ media_folder: static/assets
 
 collections:
   - name: post
-    label: Post
+    label: Posts
     folder: src/posts
     create: true
     fields:
